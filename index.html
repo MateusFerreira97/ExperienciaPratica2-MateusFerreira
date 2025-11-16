@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ONG Patas do Bem</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+    <h1>PATAS DO BEM</h1>
+    <nav>
+        <button class="hamburger" onclick="toggleMenu()">☰</button>
+        <ul id="menu">
+            <li><a href="index.html">Início</a></li>
+            <li><a href="projetos.html">Projetos</a></li>
+            <li><a href="cadastro.html">Cadastro</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+    <section id="banner">
+        <img src="imagens/banner.jpg" alt="Banner ONG Patas do Bem">
+        <h1>Transformando vidas através do amor</h1>
+    </section>
+
+    <section id="sobre">
+        <h2>Sobre Nós</h2>
+        <p>A ONG Patas do Bem quer te ajudar a encontrar seu novo melhor amigo!</p>
+    </section>
+
+    <section id="contato">
+        <h2>Contato</h2>
+        <p>Email: contato@patasdobem.org</p>
+        <p>Telefone: (11) 3000-4000</p>
+    </section>
+</main>
+
+<footer>
+    <p>© 2025 ONG Patas do Bem</p>
+</footer>
+
+<script>
+function toggleMenu() {
+    document.getElementById('menu').classList.toggle('open');
+}
+</script>
+</body>
+</html>

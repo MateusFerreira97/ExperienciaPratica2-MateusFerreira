@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Projetos - Patas do Bem</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+    <h1>PATAS DO BEM</h1>
+    <nav>
+        <button class="hamburger" onclick="toggleMenu()">☰</button>
+        <ul id="menu">
+            <li><a href="index.html">Início</a></li>
+            <li><a href="projetos.html">Projetos</a></li>
+            <li><a href="cadastro.html">Cadastro</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+    <h1>Nossos Projetos</h1>
+    <section id="lista-projetos">
+        <article class="card">
+            <h2>Feira de Adoção</h2>
+            <p>Temos feiras de adoções espalhadas por todo Brasil!</p>
+        </article>
+
+        <article class="card">
+            <h2>Cestas Solidárias</h2>
+            <p>Distribuímos rações para famílias com baixa renda.</p>
+        </article>
+
+        <article class="card">
+            <h2>Campanhas Educativas</h2>
+            <p>Promovemos eventos para conscientizar sobre cuidados com animais.</p>
+        </article>
+    </section>
+
+    <section id="voluntariado">
+        <h2>Como Ser Voluntário</h2>
+        <p>Inscreva-se em nossa plataforma e participe de nossas ações.</p>
+    </section>
+
+    <section id="doacoes">
+        <h2>Como Doar</h2>
+        <p>Apoie nossos projetos com doações financeiras ou materiais.</p>
+    </section>
+</main>
+
+<footer>
+    <p>© 2025 ONG Patas do Bem</p>
+</footer>
+
+<script>
+function toggleMenu() {
+    document.getElementById('menu').classList.toggle('open');
+}
+</script>
+</body>
+</html>
+
